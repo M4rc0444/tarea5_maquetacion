@@ -1,0 +1,56 @@
+
+@media (max-width: 768px) {
+  /* CABECERA */
+  .logo4 {
+    width: 100px;
+    margin: auto;
+  }
+  
+  /* MENÚ */
+  .contenedor_menu ul {
+    flex-direction: column;
+
+    
+  }
+  
+  .contenedor_menu ul li a {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 15px 0;
+    border-left: none;
+    border-bottom: 1px solid #CCCCCC;
+  
+  }
+  
+  /* BANNER PRINCIPAL */
+  .fondo_foto {
+    height: 300px;
+  }
+  
+  .fondo_foto h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  /* ARTÍCULOS */
+  .contenedor_articulos {
+    flex-direction: column;
+  }
+  
+  .contenedor_articulos article {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* FOOTER */
+  .contenedor_footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .redes {
+    justify-content: center;
+    margin: 15px 0;
+  }
+}
